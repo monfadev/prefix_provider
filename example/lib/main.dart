@@ -73,11 +73,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
-/// CLASS OPERATOR
-class Operator {
-  String? name;
-  List<String>? value;
-
-  Operator({this.name, this.value});
-}
