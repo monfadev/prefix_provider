@@ -1,6 +1,6 @@
 name: prefix_provider
 description: Search for service providers using prefix numbers for Indonesia.
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/monfadev/prefix_provider
 
 environment:
