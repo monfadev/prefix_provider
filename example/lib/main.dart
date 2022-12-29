@@ -40,7 +40,10 @@ class _MyHomePageState extends State<MyHomePage> {
         padding: const EdgeInsets.all(20),
         children: [
           const SizedBox(height: 50),
-          Text("Provider: ${selectOperator ?? ""}", style: const TextStyle(fontSize: 23)),
+          Text(
+            "Provider: ${selectOperator ?? ""}",
+            style: const TextStyle(fontSize: 23),
+          ),
           const SizedBox(height: 20),
           SizedBox(
             height: 50,
