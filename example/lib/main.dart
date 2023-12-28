@@ -29,8 +29,14 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final TextEditingController _etController = TextEditingController();
+  final _etController = TextEditingController();
   String? selectOperator;
+
+  @override
+  void dispose() {
+    _etController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
