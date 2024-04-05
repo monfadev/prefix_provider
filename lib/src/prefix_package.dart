@@ -1,6 +1,7 @@
 ///
 /// [PREFIX PROVIDER PACKAGE]
 ///
+library prefix_package;
 
 /// LIST OF OPERATOR WITH DATA
 List<Operator> datas = [
@@ -18,17 +19,7 @@ List<Operator> datas = [
   ),
   Operator(
     name: "smartfren",
-    value: [
-      "0881",
-      "0882",
-      "0883",
-      "0884",
-      "0885",
-      "0886",
-      "0887",
-      "0888",
-      "0889"
-    ],
+    value: ["0881", "0882", "0883", "0884", "0885", "0886", "0887", "0888", "0889"],
   ),
   Operator(
     name: "xl",

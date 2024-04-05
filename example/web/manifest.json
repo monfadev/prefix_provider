@@ -1,6 +1,6 @@
 {
-    "name": "example",
-    "short_name": "example",
+    "name": "prefix_package",
+    "short_name": "prefix_package",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
