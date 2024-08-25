@@ -12,10 +12,20 @@ void main() {
     });
 
     test('Constructor initializes correctly', () {
-      final datas = Operator(name: 'telkomsel', value: ["0812", "0813", "0821", "0822", "0852", "0853", "0823", "0851"]);
+      final datas = Operator(name: 'telkomsel', value: [
+        "0812",
+        "0813",
+        "0821",
+        "0822",
+        "0852",
+        "0853",
+        "0823",
+        "0851"
+      ]);
 
       expect(datas.name, 'telkomsel');
-      expect(datas.value, ["0812", "0813", "0821", "0822", "0852", "0853", "0823", "0851"]);
+      expect(datas.value,
+          ["0812", "0813", "0821", "0822", "0852", "0853", "0823", "0851"]);
     });
 
     test('Constructor with null values initializes correctly', () {
