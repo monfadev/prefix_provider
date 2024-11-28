@@ -1,10 +1,10 @@
 name: prefix_provider
 description: Search for service providers using prefix numbers for Indonesia.
-version: 0.0.1+4
+version: 0.0.1+5
 homepage: https://github.com/monfadev/prefix_provider
 
 environment:
-  sdk: '>=3.3.3 <4.0.0'
+  sdk: ^3.5.4
   flutter: ">=1.17.0"
 
 dependencies:
@@ -14,6 +14,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
